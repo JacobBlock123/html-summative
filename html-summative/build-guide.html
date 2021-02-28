@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1 style="text-align: center;">Build Guide</h1>
+    </head>
+
+    <body>
+        <br>
+        <!-- an iframe which will display a webpage when the link below it is clicked-->
+        <iframe height="315" width="560" frameborder="0" name="techradar"></iframe>
+        <!-- a youtube video iframe-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/v7MYOpFONCU?start=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <!-- the link that when clicked will display the website in the iframe above-->
+        <a href="https://www.techradar.com/how-to/how-to-build-a-pc" target="techradar">Go to the Memory Express website</a>
+        <br>
+        <h2 style="text-align: center;">What level of PC do you need?</h2>
+        
+        <form>
+            <p>What will you use your PC for?</p>
+            <!-- a section of radio buttons-->
+            <label> <input type="radio" name="use" value="gaming"/> Gaming </label>
+            <label> <input type="radio" name="use" value="Basic"/> Basic usage such as Word </label>
+            <label> <input type="radio" name="use" value="Other"/> Other </label>
+
+            <!-- a group of checboxes-->
+            <p>If you chose Gaming check off the boxes that apply to you: </p>
+            <label> <input type="checkbox" name="aaa"/> I will play AAA games </label>
+            <br>
+            <label> <input type="checkbox" name="high-settings"/> I prefer using high and ultra settings </label>
+            <br>
+            <label> <input type="checkbox" name="rendering"/> I plan on doing other graphics intense thigns such as 3D rendering </label>
+            <br>
+            <label> <input type="checkbox" name="game-streaming"/> I plan on streaming while I play </label>
+
+            <p>
+                If you checked off one or more of the above boxes consider spending more on a dedicated GPU and better peripherals such
+                as a gaming mouse and keyboard and aim for a high end pc (described on the home page). This will allow you to play AAA games,
+                use higher graphics settings and possiibly even do some 3D rendering. If you chose basic usage, you will only need a basic low-end pc. If you chose Other, check the boxes below that apply
+                to you:
+            </p>
+
+            <!-- another section of checkboxes-->
+            <label> <input type="checkbox" name="3D rendering"/> I plan on rendering and desiging 3D models or videos </label>
+            <br>
+            <label> <input type="checkbox" name="tabs"/> I plan on having mutliple tabs and programs open at once </label>
+            <br>
+            <label> <input type="checkbox" name="mining"/> I plan on using my computer for crypto-mining </label>
+            <br>
+            <label> <input type="checkbox" name="streaming"/> I plan on streaming </label>
+            <br>
+            <p>
+                If you clicked one or more of the above boxes, you might want a mid tier or high-end computer (described on the home page)
+                to have better performance to do the above tasks more effiecently.
+            </p>
+            <br>
+            <!-- a submit button-->
+            <input type="submit">
+
+            <!-- a reset button to reset all of the previous inputs-->
+            <input type="reset">
+        </form>
+        <br>
+        <!-- a link that will take you back to the home page-->
+        <a href="index.html">Go back to the <b>Home Page</b></a>
+    </body>
+</html>
